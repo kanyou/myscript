@@ -9,14 +9,14 @@ const vip = '/api/v2/readings/limitation';
 const time = '/api/v2/readings/accessible';
 
 if (url.indexOf(vip) != -1) {
-	obj["modules"] = [];
-	obj["auditionDuration"] = 7200;
+	obj.data["modules"] = [];
+	obj.date["auditionDuration"] = 7200;
 	body = JSON.stringify(obj);
 }
 
 if (url.indexOf(time) != -1) {
-	obj["from"] = 1482071586;
-	obj["to"] = 1671373986;
+	obj.data["from"] = 1482071586;
+	obj.data["to"] = 1671373986;
 	body = JSON.stringify(obj);
 }
 
