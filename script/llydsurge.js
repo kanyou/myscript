@@ -24,3 +24,6 @@ if ($response.status == 200 && $request.method == 'GET') {
 } else {
 	$done({})
 }
+/**
+ * @supported 9E1BBA07A0EF
+ */
