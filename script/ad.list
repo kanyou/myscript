@@ -1,4 +1,4 @@
-//Thirdparty
+#Thirdparty
 host-keyword,inmobi
 host,app.adjust.com
 host-keyword,adsystem
@@ -25,7 +25,7 @@ host-suffix,pubnative.net
 host-suffix,flurry.com
 host-suffix,igexin.com
 
-//Google&&Youtube
+#Google&&Youtube
 host,mtalk.google.com
 host,suggestqueries.google.com
 host,www.googleadservices.com
@@ -33,7 +33,7 @@ host-suffix,doubleclick.net
 host-keyword,adservice
 host,www.google-analytics.com
 
-//QQ
+#QQ
 user-agent,TencentConnect*
 host-suffix,3g.qq.com
 host,pingma.qq.com
@@ -44,9 +44,9 @@ host,wup.imtt.qq.com
 host,sdk.e.qq.com
 host-suffix,gdt.qq.com
 
-//Apple
+#Apple
 user-agent,com.apple.AppStore.ProductPageExtension*
 host,iadsdk.apple.com
 
-//Ali
+#Ali
 host-keyword,adashx
